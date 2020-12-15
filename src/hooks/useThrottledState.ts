@@ -6,7 +6,7 @@ export function useThrottledState<V = undefined>(
   ms: number = 0
 ): [V, Dispatch<SetStateAction<V>>] {
   let [state, setState] = useState(value)
-  let throttledSetState = useCallback(() => throttle(setState, ms), [])
+  let throttledSetState = useCallback(throttle(setState, ms), [])
 
   return [state, throttledSetState]
 }
