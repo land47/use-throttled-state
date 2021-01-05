@@ -6,12 +6,12 @@
   "author": "Anton Zahariev <jjoska@yandex.ru>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/profilemyprofile/use-throttled-state"
+    "url": "https://github.com/land47/use-throttled-state"
   },
   "bugs": {
-    "url": "https://github.com/profilemyprofile/use-throttled-state/issues"
+    "url": "https://github.com/land47/use-throttled-state/issues"
   },
-  "homepage": "https://github.com/profilemyprofile/use-throttled-state",
+  "homepage": "https://github.com/land47/use-throttled-state",
   "files": [
     "dist"
   ],
