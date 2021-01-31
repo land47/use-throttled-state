@@ -1,7 +1,7 @@
 # Usage
 
 ```typescript
-import {useThrottledState} from '@unexp/router/use-throttled-state'
+import {useThrottledState} from '@unexp/use-throttled-state'
 
 export let App: FC = () => {
   let [counter, setCounter] = useThrottledState(1, 500)
